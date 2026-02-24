@@ -1,0 +1,36 @@
+.main {
+    display: grid;
+    grid-template-columns: repeat(12, 45px);
+    grid-template-rows: repeat(18, 45px);
+    background-color: rgb(37, 72, 130);
+}
+
+.network {
+    background-color: rgba(17, 26, 41, 0.753);
+    grid-row: 3/13;
+    grid-column: 2/12;
+    display: grid;
+    grid-template-columns: repeat(10, 45px);
+    grid-template-rows: repeat(10, 45px);
+    
+}
+
+.cell {
+    height: 92%;
+    width: 92%;
+    box-shadow: 1px 1px black;
+    aspect-ratio: 1; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(40, 56, 82);
+}
+
+body {
+    margin: 0;
+    display: flex;
+    min-width: 320px;
+    min-height: 100vh;
+    justify-self: center;
+}
