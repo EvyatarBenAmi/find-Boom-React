@@ -7,7 +7,7 @@
 
 .network {
     background-color: rgba(17, 26, 41, 0.753);
-    grid-row: 3/13;
+    grid-row: 5/15;
     grid-column: 2/12;
     display: grid;
     grid-template-columns: repeat(10, 45px);
@@ -25,6 +25,16 @@
     align-items: center;
     cursor: pointer;
     background-color: rgb(40, 56, 82);
+}
+.is-x{
+    background-color:rgb(152, 157, 163) ;
+    color: blue;
+    font-size: 20px;
+    z-index: 1;
+}
+.is-boom{
+    background-color: red;
+    font-size: 29px;
 }
 
 body {
